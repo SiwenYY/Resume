@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">黄燕简历</string>
+    <string name="action_settings">博客地址</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="self_evaluation"> \t\t\t越努力越幸运一直是我的座右铭。3年前还是一个小小的助理，2年前从事Android开发，现在独立开发。3年的开发经验，不仅具备了Android开发能力，还具备了一定的沟通协调能力。虽热是一名女子，但有较强的独立工作能力、抗压能力和学习能力。
+    \n \t\t\t一个爱笑、开朗、有抱负的女孩。平时有空写写博客，整理常用的知识点，拥有自己的代码库。如果您正在看简历，如果您觉得我适合您的岗位，请从千万简历中将我挑出。我或许就是那个你正在找的人。</string>
+    <string name="personal_skills">1.精通Java，能很好的理解面向对象思想。\n
+2.精通Android四大组件，能灵活运用。\n
+3.精通Android下Ui布局，原生控件的使用，可以根据需求自定义view。\n
+4.熟悉MVC框架开发思想，了解MVP设计框架。\n
+5.熟悉网络请求、事件总线、json解析等第三方框架的使用。\n
+6.熟悉Android中的Handler机制及其工作原理。\n
+7.熟悉图片的缓存及优化。\n
+8.熟悉Android网络通信机制，对Socket通信、Tcp、Http有一定了解。\n
+9.熟悉设计模式的原则，单例、工厂、观察者、状态、策略设计模式的使用。\n
+10.熟悉应用Android下的Sqlite操作，掌握各种数据的存储。\n
+11.了解VR的相关知识及简单开发。\n
+12.了解Wear的相关知识及简单开发。\n
+13.了解Kotlin，常用的基本语法使用，写简单的demo。\n
+14.OkhttpUtils、ImageLoader等优秀开源框架的底层源码学习。</string>
+
+    <string name="experience">工作经历</string>
+    <string name="responsibility1">工作职责：\n
+一、辣播项目的独立开发\n
+1.根据业务需求，搭建开发框架。\n
+2.完成自定义播放器、3D图片、隐私空间、用户管理、搜索等模块的开发。\n
+3.项目中评估选择第三方框架。\n
+4、版本迭代。\n
+二、跟进OA04项目中辣椒VR应用和V3项目中红辣椒VR应用（项目外包）\n
+1.根据经理的要求制定产品需求文档。\n
+2.推动合作商产品开发进度和指导开发。\n
+3.跨部门协调和沟通，推动Ui，开发，测试，运营等人员紧密合作达成产品目标。\n
+4.挖掘总结产品问题，不断优化产品的功能。</string>
+    <string name="responsibility2">工作职责：\n
+1.项目中根据需求选择合适的第三方框架。\n
+2.负责产品Ui及用户管理模块的开发。\n
+3.单元测试。\n
+4.app签名打包。\n
+5.部分模块代码重构。\n
+6.版本迭代。</string>
+    <string name="responsibility3">工作职责：\n
+1.协助部门经理承担部门日常事务性管理工作。\n
+2.跟踪、监督、协调公司重要研发项目进展情况、监督部门工作进度。\n
+3.协同处理与公司内部其他部门的往来业务。\n
+4.协调处理客户关系。\n
+5.管理部门文档、部门工作汇总。</string>
+    <string name="time1">2016年9月—至今\t\t\t\tAndroid工程师</string>
+    <string name="time2">2014年7月—2016年9月\t\t\t\tAndroid工程师</string>
+    <string name="time3">2012年3月—2014年4月\t\t\t\t研发部助理</string>
+
+    <string name="project_description_content1">红辣椒VR是中国领先的VR资源聚合平台，每天更新海量VR资源，支持本地视频播放，让你感受不一样的VR虚拟世界。\n
+    由于是外包给第三方开发的，该应用集成了红辣椒VR、红辣椒驱动协议、红辣椒用户模式三个app。其中红辣椒用户模式由我负责开发。</string>
+    <string name="project_description_content2">是专门为UGC拍摄的3D 视频、照片进行管理和观看的软件。我们致力于给用户更好VR及3D观看效果，以及对我们资源进行有效管理。个人空间可以让你钟爱的视频/文件，不轻易让其他人知道，轻松管理好自己的秘密花园。  </string>
+    <string name="project_technology_overview1">1.手机短信验证登录；\n
+2.圆形用户图像拍照、裁剪及长传；\n
+3.友盟统计集成；\n
+4.多渠道混淆打包；\n
+5.OkhttpUtils网络框架实现数据交互和文件上传；\n
+6.使用了状态设计模式进行代码重构；\n
+7.使用Xmind工具制定产品需求文档。\n\n\n
+
+项目链接 ： http://m.dlodlo.com/xlj/app/</string>
+    <string name="project_technology_overview2">1.使用vitamio库进行2D视频播放器开发；\n
+2.使用Google vr sdk进行vr开发；\n
+3.使用panolibrary库进行视频360度全景开发；\n
+4.系统qq、微信分享及ShareSDk第三方分享；\n
+5.使用StickyGridHeaderGridView对图片进行时间分类显示；\n
+6.照片的扩大缩小、圆形图像等自定义控件使用；\n
+7.OkHttpUtils网络框架实现数据交互和文件的上传；\n
+8.文件的加密和解密；\n
+9.日志管理；\n
+10.listview、Gridview、viewpager常用控件的使用。</string>
+
+</resources>

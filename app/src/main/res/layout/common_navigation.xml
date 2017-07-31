@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--标题栏-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/navigation_blue"
+    >
+    <ImageView
+        android:id="@+id/back"
+        style="@style/BackStyle"/>
+    <TextView
+        android:id="@+id/navigation_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="个人信息"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

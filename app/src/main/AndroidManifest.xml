@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.yanzi.resume"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".base.ResumeApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/me2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".activity.SiwenResumeActivity"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".activity.PersonalInformationActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".activity.SelfEvaluationActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".activity.PersonalSkillsActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".activity.ExperienceActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".activity.ProjectExperienceActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>
