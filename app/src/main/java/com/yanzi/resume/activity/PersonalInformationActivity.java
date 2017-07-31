@@ -8,7 +8,7 @@ import com.yanzi.resume.base.BaseActivity;
 /**
  * 创建者     黄燕
  * 创建时间   2017/7/23 15:15
- * 描述	      ${TODO}
+ * 描述	      ${个人信息界面}
  *
  * 更新者     $Author$
  * 更新时间   $Date$
@@ -27,7 +27,6 @@ public class PersonalInformationActivity extends BaseActivity {
 
     @Override
     protected void initView() {
-
     }
 
     @Override

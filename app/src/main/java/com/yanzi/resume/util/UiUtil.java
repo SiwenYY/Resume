@@ -3,7 +3,16 @@ package com.yanzi.resume.util;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
+import android.os.Environment;
 import android.os.Handler;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 
 /**
@@ -84,30 +93,18 @@ public class UiUtil {
 
     /**
      * dip-->px
-     *
-     * @param dip
-     *
-     * @return
      */
     public static int dip2Px(int dip) {
-        // px/dp = density
-        // px/(ppi/160) = px
-        float density = getResources().getDisplayMetrics().density;//1.5
-      //  int   ppi     = getResources().getDisplayMetrics().densityDpi;//240
+        float density = getResources().getDisplayMetrics().density;
         int   px      = (int) ( dip * density + .5f );
         return px;
     }
 
     /**
      * px-->dip
-     *
-     * @param px
-     *
-     * @return
      */
     public static int px2Dip(int px) {
-        // px/dp = density
-        float density = getResources().getDisplayMetrics().density;//1.5
+        float density = getResources().getDisplayMetrics().density;
         int   dp      = (int) ( px / density + .5f );
         return dp;
     }
@@ -116,6 +113,41 @@ public class UiUtil {
         Intent intent = new Intent(context, clazz);
         context.startActivity(intent);
     }
+
+    //得到图片
+    public static Bitmap getBitmap(Context context,Uri uri){
+        Bitmap bitmap;
+        try {
+            bitmap = BitmapFactory.decodeStream(context.getContentResolver().openInputStream(uri));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            return null;
+        }
+        return bitmap;
+    }
+
+    /** 保存方法 */
+    public static void saveBitmap(Bitmap bitmap) {
+        String PIC_PATH = Environment.getExternalStorageDirectory().getAbsolutePath();
+        File f = new File(PIC_PATH, "temp.jpeg");
+        if (f.exists()) {
+            f.delete();
+        }
+        try {
+            FileOutputStream out = new FileOutputStream(f);
+            bitmap.compress(Bitmap.CompressFormat.PNG, 90, out);
+            out.flush();
+            out.close();
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+    }
+
 }
 
 

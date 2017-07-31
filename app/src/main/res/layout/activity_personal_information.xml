@@ -7,6 +7,7 @@
     <include layout="@layout/common_navigation"/>
 
     <com.yanzi.resume.view.CircleImageView
+        android:id="@+id/icon"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/me1"

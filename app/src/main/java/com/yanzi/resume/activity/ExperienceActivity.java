@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * 创建者     黄燕
  * 创建时间   2017/7/23 19:35
- * 描述	      ${TODO}
+ * 描述	      ${工作经历界面}
  *
  * 更新者     $Author$
  * 更新时间   $Date$
@@ -41,9 +41,8 @@ public class ExperienceActivity extends BaseActivity{
         mRecyclerView.setLayoutManager(mLayoutManager);
         //设置item的动画，可以不设置
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
-        MyAdapter adapter = new MyAdapter(initDatas());
         //设置Adapter
-        mRecyclerView.setAdapter(adapter);
+        mRecyclerView.setAdapter(new MyAdapter(initDatas()));
     }
 
     @Override
@@ -76,13 +75,13 @@ public class ExperienceActivity extends BaseActivity{
         list.add(entity1);
 
         String time2 = UiUtil.getSring(R.string.time2,"");;
-        String name2 = "深圳市乐游盛世科技有限公司";
+        String name2 = "深圳市AA科技有限公司";
         String responsibility2 = UiUtil.getSring(R.string.responsibility2,"");
         ExperienceEntity entity2 = new ExperienceEntity(time2,name2,responsibility2);
         list.add(entity2);
 
         String time3 = UiUtil.getSring(R.string.time3,"");;
-        String name3= "佛山市指尖互动科技有限公司";
+        String name3= "佛山市BB科技有限公司";
         String responsibility3 = UiUtil.getSring(R.string.responsibility3,"");
         ExperienceEntity entity3 = new ExperienceEntity(time3,name3,responsibility3);
         list.add(entity3);

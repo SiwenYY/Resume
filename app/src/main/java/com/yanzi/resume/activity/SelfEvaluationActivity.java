@@ -9,7 +9,7 @@ import com.yanzi.resume.base.BaseActivity;
 /**
  * 创建者     黄燕
  * 创建时间   2017/7/23 18:58
- * 描述	      ${TODO}
+ * 描述	      ${自我评价界面}
  *
  * 更新者     $Author$
  * 更新时间   $Date$

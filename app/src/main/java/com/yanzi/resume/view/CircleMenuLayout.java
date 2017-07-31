@@ -13,6 +13,16 @@ import android.widget.TextView;
 
 import com.yanzi.resume.R;
 
+/**
+ * 创建者     黄燕
+ * 创建时间   2017/7/23 14:47
+ * 描述	      ${自定义圆形菜单}
+ *
+ * 更新者     $Author$
+ * 更新时间   $Date$
+ * 更新描述   ${TODO}
+ */
+
 public class CircleMenuLayout extends ViewGroup
 {
 	private int mRadius;

@@ -20,7 +20,7 @@ import com.yanzi.resume.R;
  */
 public abstract class BaseActivity extends FragmentActivity implements View.OnClickListener {
     private ResumeApplication application;
-    private BaseActivity                  oContext;
+    private BaseActivity oContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,13 +34,9 @@ public abstract class BaseActivity extends FragmentActivity implements View.OnCl
             window.setStatusBarColor(getResources().getColor(R.color.navigation_blue));
         }
 
-        //初始化view
         initView();
-        //setadata
         initData();
-        //setadapter  setlistener
         initListener();
-        //处理公用按钮
         regCommBtn();
 
         if (application == null) {
@@ -52,10 +48,8 @@ public abstract class BaseActivity extends FragmentActivity implements View.OnCl
 
     //处理公用按钮
     private void regCommBtn() {
-        //初始化back按钮view
         View back = findViewById(R.id.back);
         if (back != null) {
-            //设置点击事件
             back.setOnClickListener(this);
         }
     }

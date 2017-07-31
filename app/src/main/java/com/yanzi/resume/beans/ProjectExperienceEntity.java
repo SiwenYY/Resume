@@ -3,7 +3,7 @@ package com.yanzi.resume.beans;
 /**
  * 创建者     黄燕
  * 创建时间   2017/7/23 20:39
- * 描述	      ${TODO}
+ * 描述	      ${项目经验实例}
  *
  * 更新者     $Author$
  * 更新时间   $Date$

@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView
     android:id="@+id/project_root"
-xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-app:cardCornerRadius="10dp"
-app:cardElevation="5dp"
-app:cardBackgroundColor="@color/background"
-  >
-<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="12dp">
-        <TextView
-            android:id="@+id/project_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="项目 (一)"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@color/navigation_blue"/>
-        <TextView
-            android:id="@+id/project_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="项目名称：	红辣椒VR"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="5dp"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="项目描述："
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="5dp"/>
-        <TextView
-            android:id="@+id/project_description_content"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/project_description_content1"
-            android:textSize="16sp"
-            android:layout_marginTop="5dp"
-            android:lineSpacingExtra="1dp"
-            android:lineSpacingMultiplier="1.5"
-            android:ellipsize="end"
-            android:singleLine="false"
-            />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="技术概要："
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="5dp"/>
-        <TextView
-            android:id="@+id/project_technology_overview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/project_technology_overview1"
-            android:textSize="16sp"
-            android:layout_marginTop="5dp"
-            android:lineSpacingExtra="1dp"
-            android:lineSpacingMultiplier="1.5"/>
-    </LinearLayout>
+    android:layout_height="match_parent"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="@color/background">
 
-</ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+            <TextView
+                android:id="@+id/project_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="项目 (一)"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/navigation_blue"/>
+            <TextView
+                android:id="@+id/project_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="项目名称：	红辣椒VR"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="项目描述："
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/project_description_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/project_description_content1"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="1dp"
+                android:lineSpacingMultiplier="1.5"
+                android:ellipsize="end"
+                android:singleLine="false"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="技术概要："
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/project_technology_overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/project_technology_overview1"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="1dp"
+                android:lineSpacingMultiplier="1.5"/>
+        </LinearLayout>
+
+    </ScrollView>
 </android.support.v7.widget.CardView>

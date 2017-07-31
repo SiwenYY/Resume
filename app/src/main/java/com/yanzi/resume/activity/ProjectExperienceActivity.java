@@ -21,7 +21,7 @@ import java.util.List;
 /**
  * 创建者     黄燕
  * 创建时间   2017/7/23 19:57
- * 描述	      ${TODO}
+ * 描述	      ${项目经验界面}
  *
  * 更新者     $Author$
  * 更新时间   $Date$
@@ -50,9 +50,8 @@ public class ProjectExperienceActivity extends BaseActivity {
         //设置item的动画，可以不设置
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
         mRecyclerView.setHasFixedSize(true);
-        MyAdapter adapter = new MyAdapter(initDatas());
         //设置Adapter
-        mRecyclerView.setAdapter(adapter);
+        mRecyclerView.setAdapter(new MyAdapter(initDatas()));
 
     }
 
